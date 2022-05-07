@@ -16,5 +16,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Diets_Recipes::class.java)
             startActivity(intent)
         }
+
+        val btHistoNutric = findViewById<Button>(R.id.btHistoNutric)
+
+        btHistoNutric.setOnClickListener {
+            val intent = Intent(this, Nutritionals_Histories::class.java)
+            startActivity(intent)
+        }
     }
 }
