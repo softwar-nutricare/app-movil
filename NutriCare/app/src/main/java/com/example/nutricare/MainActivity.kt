@@ -12,8 +12,15 @@ class MainActivity : AppCompatActivity() {
 
         val btDietRecep = findViewById<Button>(R.id.btDietRece)
 
+        val btAssesory = findViewById<Button>(R.id.btAsesorias)
+
         btDietRecep.setOnClickListener {
             val intent = Intent(this, Diets_Recipes::class.java)
+            startActivity(intent)
+        }
+
+        btAssesory.setOnClickListener {
+            val intent = Intent(this, Assesories::class.java)
             startActivity(intent)
         }
     }
