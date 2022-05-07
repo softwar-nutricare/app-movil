@@ -33,9 +33,9 @@ class Diets_Recipes : AppCompatActivity() {
     }
 
     private fun loadRecipes() {
-        recipes.add(Recipe("Ensalada Fresca", "Esta ensalada esta comprendida por bla bla bla bla bla", "50"))
-        recipes.add(Recipe("Ensalada Rusa", "Esta ensalada esta comprendida por veterraga, leghuga y bla bla bla bla bla", "40"))
-        recipes.add(Recipe("Ensalada de Frutas", "Esta ensalada esta tiene diversas frutas como bla bla bla bla bla", "70"))
+        recipes.add(Recipe("Ensalada Fresca", "Esta ensalada esta comprendida por bla bla bla bla bla", "50", "4", "3:00 min"))
+        recipes.add(Recipe("Ensalada Rusa", "Esta ensalada esta comprendida por veterraga, leghuga y bla bla bla bla bla", "40", "3", "4:00 min"))
+        recipes.add(Recipe("Ensalada de Frutas", "Esta ensalada esta tiene diversas frutas como bla bla bla bla bla", "70", "5", "6:00 min"))
 
     }
 }

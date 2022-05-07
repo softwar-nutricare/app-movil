@@ -31,11 +31,15 @@ class RecipePrototype(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val tvTitle = itemView.findViewById<TextView>(R.id.tvTitleDiet)
     val tvDescription = itemView.findViewById<TextView>(R.id.tvDescription)
     val tvN_Calories = itemView.findViewById<TextView>(R.id.tvNumbCalories)
+    val tvN_Ingredients = itemView.findViewById<TextView>(R.id.tvN_Ingre)
+    val tvT_Prepra = itemView.findViewById<TextView>(R.id.tvN_TPre)
 
     //vinculamos las variables con la clase
     fun bind(recipe: Recipe){
         tvTitle.text = recipe.title
         tvDescription.text = recipe.description
         tvN_Calories.text = recipe.N_Calories
+        tvN_Ingredients.text = recipe.N_Ingredients
+        tvT_Prepra.text = recipe.T_Preparation
     }
 }
