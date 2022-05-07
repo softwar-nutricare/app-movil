@@ -11,10 +11,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btDietRecep = findViewById<Button>(R.id.btDietRece)
+        val btMoreInfo= findViewById<Button>(R.id.btInform)
 
         btDietRecep.setOnClickListener {
             val intent = Intent(this, Diets_Recipes::class.java)
             startActivity(intent)
+        }
+
+        btMoreInfo.setOnClickListener {
+            val intent1 = Intent(this, MoreInfo::class.java)
+            startActivity(intent1)
         }
     }
 }
