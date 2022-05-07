@@ -12,4 +12,7 @@
     <string name="ingredientes">Ingredientes:</string>
     <string name="tiempo_prepa">Tiempo Prepa:</string>
     <string name="informacion_nutricional">Informacion Nutricional</string>
+    <string name="name">TextView</string>
+    <string name="age">TextView</string>
+    <string name="email">TextView</string>
 </resources>
