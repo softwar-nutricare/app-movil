@@ -14,7 +14,10 @@
             android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
-
+            android:name=".Nutritionals_Histories"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Assesories"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
