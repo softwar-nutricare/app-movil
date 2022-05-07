@@ -14,7 +14,12 @@
             android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
+
             android:name=".Assesories"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoreInfo"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity

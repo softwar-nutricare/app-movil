@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btDietRecep = findViewById<Button>(R.id.btDietRece)
+        val btMoreInfo= findViewById<Button>(R.id.btInform)
 
         val btAssesory = findViewById<Button>(R.id.btAsesorias)
 
@@ -19,9 +20,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         btAssesory.setOnClickListener {
             val intent = Intent(this, Assesories::class.java)
             startActivity(intent)
+        }
+        btMoreInfo.setOnClickListener {
+            val intent1 = Intent(this, MoreInfo::class.java)
+            startActivity(intent1)
         }
     }
 }
