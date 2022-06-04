@@ -15,4 +15,8 @@
     <string name="name">TextView</string>
     <string name="age">TextView</string>
     <string name="email">TextView</string>
+    <string name="reprogramar">Reprogramar</string>
+    <string name="separador_horas">|</string>
+    <string name="separadorHora">-</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
