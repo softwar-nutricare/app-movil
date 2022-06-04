@@ -23,6 +23,11 @@ class RecipeAdapter(var recipes: ArrayList<Recipe>): RecyclerView.Adapter<Recipe
         return recipes.size
     }
 
+    fun DeleteItem(){
+        recipes.removeAt(1)
+    }
+
+
 }
 
 class RecipePrototype(itemView: View) : RecyclerView.ViewHolder(itemView) {

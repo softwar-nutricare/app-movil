@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btHistoNutric.setOnClickListener {
+        /*btHistoNutric.setOnClickListener {
             val intent = Intent(this, Nutritionals_Histories::class.java)
             startActivity(intent)
-        }
+        }*/
         btAssesory.setOnClickListener {
             val intent = Intent(this, Assesories::class.java)
             startActivity(intent)
