@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Diets_Recipes">
+    tools:context=".Dates">
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvDietRecep"
-        android:layout_width="417dp"
-        android:layout_height="650dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <TextView
+        android:id="@+id/tvBG"
+        android:layout_width="412dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:backgroundTint="#BCBCBC"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDate"
+        android:layout_width="411dp"
+        android:layout_height="692dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
