@@ -10,25 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NutriCare">
         <activity
+            android:name=".MainUser"
+            android:exported="false" />
+        <activity
             android:name=".Dates"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainUser" />
         <activity
             android:name=".Diets_Recipes"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainUser" />
         <activity
             android:name=".Nutritionals_Histories"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainUser" />
         <activity
             android:name=".Assesories"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainUser" />
         <activity
             android:name=".MoreInfo"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainUser" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
