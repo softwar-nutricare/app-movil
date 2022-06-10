@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btNutricionista.setOnClickListener {
-            val intent = Intent(this, MainUser::class.java)
+            val intent = Intent(this, MainNutritionist::class.java)
             startActivity(intent)
         }
     }

@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NutriCare">
         <activity
+            android:name=".Add_Diets_Recipes"
+            android:exported="false" />
+        <activity
+            android:name=".N_Diets"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist"/>
+        <activity
+            android:name=".MainNutritionist"
+            android:exported="false" />
+        <activity
             android:name=".MainUser"
             android:exported="false" />
         <activity

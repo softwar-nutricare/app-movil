@@ -10,7 +10,7 @@ class MainUser : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_user)
 
-        val btDietRecep = findViewById<Button>(R.id.btDietRece)
+        val btDietRecep = findViewById<Button>(R.id.btDiet)
         val btMoreInfo= findViewById<Button>(R.id.btInform)
         //val btHistoNutric = findViewById<Button>(R.id.btHistoNutric)
         val btAssesory = findViewById<Button>(R.id.btAsesorias)
