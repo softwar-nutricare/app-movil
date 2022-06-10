@@ -21,4 +21,12 @@
     <string name="cancelar">Cancelar</string>
     <string name="entrar_como_cliente">Entrar como cliente</string>
     <string name="entrar_como_nutricionista">Entrar como nutricionista</string>
+    <string name="n_asesorias">Asesorias</string>
+    <string name="n_historial">Historial</string>
+    <string name="n_dietas">Dietas</string>
+    <string name="n_perfil">Perfil</string>
+    <string name="ingrese_el_titulo">ingrese el titulo</string>
+    <string name="item_guardar">item_guardar</string>
+    <string name="item_eliminar">item_eliminar</string>
+    <string name="nuevo_dieta_recip">Nuevo</string>
 </resources>

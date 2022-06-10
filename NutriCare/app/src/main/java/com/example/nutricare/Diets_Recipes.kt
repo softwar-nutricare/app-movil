@@ -13,7 +13,7 @@ class Diets_Recipes : AppCompatActivity() {
 
     var recipes = ArrayList<Recipe>()
 
-    var recipeAdapter = RecipeAdapter(recipes)
+    //var recipeAdapter = RecipeAdapter(recipes)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,12 +26,8 @@ class Diets_Recipes : AppCompatActivity() {
         actionBar.setDisplayHomeAsUpEnabled(true)
 
 
-
-
-
-
         initView()
-        loadRecipes()
+        //loadRecipes()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -66,11 +62,11 @@ class Diets_Recipes : AppCompatActivity() {
     private fun initView() {
         //vinculo el adapter al rV
         val rvRecipe = findViewById<RecyclerView>(R.id.rvDietRecep)
-        rvRecipe.adapter = recipeAdapter
+        //rvRecipe.adapter = recipeAdapter
         rvRecipe.layoutManager = LinearLayoutManager(this)
     }
 
-    private fun loadRecipes() {
+    /*private fun loadRecipes() {
         recipes.add(Recipe("Ensalada Fresca", "Esta ensalada esta comprendida por bla bla bla bla bla", "50", "4", "3:00 min"))
         recipes.add(Recipe("Ensalada Rusa", "Esta ensalada esta comprendida por veterraga, leghuga y bla bla bla bla bla", "40", "3", "4:00 min"))
         recipes.add(Recipe("Ensalada de Frutas", "Esta ensalada esta tiene diversas frutas como bla bla bla bla bla", "70", "5", "6:00 min"))
@@ -78,7 +74,7 @@ class Diets_Recipes : AppCompatActivity() {
         recipes.add(Recipe("Ensalada Caprese", "Esta ensalada se caracteriza por bla bla bla bla bla", "50", "4", "3:00 min"))
 
 
-    }
+    }*/
 
     private fun loadRecipesfav(){
         recipes.removeLast()

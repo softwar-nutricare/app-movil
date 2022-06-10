@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainUser">
+    tools:context=".MainNutritionist">
 
     <ImageView
         android:id="@+id/ivBackground"
@@ -39,74 +39,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btAsesorias"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="116dp"
-        android:backgroundTint="#7fa208"
-        android:text="@string/asesorias"
-        app:cornerRadius="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
 
     <Button
-        android:id="@+id/btHistoNutric"
+        android:id="@+id/btNHistoNutric"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginEnd="80dp"
         android:backgroundTint="#7fa208"
-        android:text="@string/historial_nutricional"
+        android:text="@string/n_historial"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btAsesorias" />
+        app:layout_constraintTop_toBottomOf="@+id/btNAsesorias" />
 
     <Button
-        android:id="@+id/btDiet"
+        android:id="@+id/btNDiet"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="#7fa208"
-        android:text="@string/dietas_recetas"
+        android:text="@string/n_dietas"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btHistoNutric" />
+        app:layout_constraintTop_toBottomOf="@+id/btNHistoNutric" />
 
     <Button
-        android:id="@+id/btPerfil"
+        android:id="@+id/btNPerfil"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginEnd="100dp"
         android:backgroundTint="#7fa208"
-        android:text="@string/perfil"
+        android:text="@string/n_perfil"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btDiet" />
-
-    <Button
-        android:id="@+id/btInform"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="116dp"
-        android:backgroundTint="#7fa208"
-        android:text="@string/informate_mas"
-        app:cornerRadius="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btPerfil" />
-
-    <Button
-        android:id="@+id/btCitas"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="30dp"
-        android:backgroundTint="#7fa208"
-        android:text="@string/citas"
-        android:textSize="14sp"
-        app:cornerRadius="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btNDiet" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -117,4 +82,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/enter" />
+
+    <Button
+        android:id="@+id/btNAsesorias"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#7fa208"
+        android:text="@string/n_asesorias"
+        app:cornerRadius="25dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="265dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
 </androidx.constraintlayout.widget.ConstraintLayout>

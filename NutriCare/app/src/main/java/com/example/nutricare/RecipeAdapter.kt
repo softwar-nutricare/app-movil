@@ -3,10 +3,12 @@ package com.example.nutricare
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.prototype_diets_recipes.view.*
 
-class RecipeAdapter(var recipes: ArrayList<Recipe>): RecyclerView.Adapter<RecipePrototype>() {
+
+class RecipeAdapter(var recipes: List<Recipe>, val itemClickListener: OnItemClickListener):
+    RecyclerView.Adapter<RecipePrototype>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipePrototype {
             val view = LayoutInflater
                 .from(parent.context)
@@ -15,36 +17,41 @@ class RecipeAdapter(var recipes: ArrayList<Recipe>): RecyclerView.Adapter<Recipe
             return RecipePrototype(view)
     }
 
-    override fun onBindViewHolder(holder: RecipePrototype, position: Int) {
-        holder.bind(recipes.get(position))
+    override fun onBindViewHolder(recipePrototype: RecipePrototype, position: Int) {
+        recipePrototype.bind(recipes[position], itemClickListener)
     }
 
     override fun getItemCount(): Int {
         return recipes.size
     }
-
-    fun DeleteItem(){
-        recipes.removeAt(1)
-    }
-
-
 }
 
 class RecipePrototype(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     //vinculamos los controles del prototype con variables
-    val tvTitle = itemView.findViewById<TextView>(R.id.tvTitleDiet)
-    val tvDescription = itemView.findViewById<TextView>(R.id.tvDescription)
-    val tvN_Calories = itemView.findViewById<TextView>(R.id.tvNumbCalories)
-    val tvN_Ingredients = itemView.findViewById<TextView>(R.id.tvN_Ingre)
-    val tvT_Prepra = itemView.findViewById<TextView>(R.id.tvN_TPre)
+    val tvTitle = itemView.tvTitleDiet
+    val tvDescription = itemView.tvDescription
+    val tvN_Calories = itemView.tvNumbCalories
+    val tvN_Ingredients = itemView.tvN_Ingre
+    val tvT_Prepra = itemView.tvN_TPre
+    val cvRecipe = itemView.cvRecipe
 
     //vinculamos las variables con la clase
-    fun bind(recipe: Recipe){
+    fun bind(recipe: Recipe, itemClickListener: OnItemClickListener){
         tvTitle.text = recipe.title
         tvDescription.text = recipe.description
         tvN_Calories.text = recipe.N_Calories
         tvN_Ingredients.text = recipe.N_Ingredients
         tvT_Prepra.text = recipe.T_Preparation
+
+        cvRecipe.setOnClickListener {
+            itemClickListener.OnItemClicked(recipe)
+        }
     }
+}
+
+//creo la interfaz
+interface OnItemClickListener {
+    fun OnItemClicked(recipe: Recipe)
+
 }
