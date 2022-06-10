@@ -10,33 +10,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btDietRecep = findViewById<Button>(R.id.btDietRece)
-        val btMoreInfo= findViewById<Button>(R.id.btInform)
-        val btHistoNutric = findViewById<Button>(R.id.btHistoNutric)
-        val btAssesory = findViewById<Button>(R.id.btAsesorias)
-        val btDates = findViewById<Button>(R.id.btCitas)
+        val btCliente= findViewById<Button>(R.id.btCliente)
+        val btNutricionista = findViewById<Button>(R.id.btNutricionista)
 
-        btDietRecep.setOnClickListener {
-            val intent = Intent(this, Diets_Recipes::class.java)
+        btCliente.setOnClickListener {
+            val intent = Intent(this, MainUser::class.java)
             startActivity(intent)
         }
 
-        /*btHistoNutric.setOnClickListener {
-            val intent = Intent(this, Nutritionals_Histories::class.java)
-            startActivity(intent)
-        }*/
-        btAssesory.setOnClickListener {
-            val intent = Intent(this, Assesories::class.java)
+        btNutricionista.setOnClickListener {
+            val intent = Intent(this, MainUser::class.java)
             startActivity(intent)
         }
-        btMoreInfo.setOnClickListener {
-            val intent1 = Intent(this, MoreInfo::class.java)
-            startActivity(intent1)
-        }
-        btDates.setOnClickListener {
-            val intent1 = Intent(this, Dates::class.java)
-            startActivity(intent1)
-        }
-
     }
 }

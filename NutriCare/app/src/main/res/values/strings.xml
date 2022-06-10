@@ -19,4 +19,6 @@
     <string name="separador_horas">|</string>
     <string name="separadorHora">-</string>
     <string name="cancelar">Cancelar</string>
+    <string name="entrar_como_cliente">Entrar como cliente</string>
+    <string name="entrar_como_nutricionista">Entrar como nutricionista</string>
 </resources>
