@@ -10,42 +10,39 @@
     <Button
         android:id="@+id/btCliente"
         android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="72dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#7fa208"
         android:text="@string/entrar_como_cliente"
+        android:textSize="16sp"
         app:cornerRadius="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
 
     <Button
         android:id="@+id/btNutricionista"
         android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="68dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#7fa208"
         android:text="@string/entrar_como_nutricionista"
-        android:textSize="13sp"
+        android:textSize="16sp"
         app:cornerRadius="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCliente" />
 
     <TextView
         android:id="@+id/tvAppName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="212dp"
-        android:layout_marginEnd="132dp"
         android:text="@string/app_name"
         android:textSize="34sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -60,5 +57,17 @@
         app:layout_constraintVertical_bias="0.112"
 
         app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bienvenido"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

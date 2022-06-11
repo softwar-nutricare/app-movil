@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class MainUser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,7 @@ class MainUser : AppCompatActivity() {
         //val btHistoNutric = findViewById<Button>(R.id.btHistoNutric)
         val btAssesory = findViewById<Button>(R.id.btAsesorias)
         val btDates = findViewById<Button>(R.id.btCitas)
+        val ivU_exit = findViewById<ImageView>(R.id.ivU_exit)
 
         btDietRecep.setOnClickListener {
             val intent = Intent(this, Diets_Recipes::class.java)
@@ -36,6 +38,11 @@ class MainUser : AppCompatActivity() {
         btDates.setOnClickListener {
             val intent1 = Intent(this, Dates::class.java)
             startActivity(intent1)
+        }
+
+        ivU_exit.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }

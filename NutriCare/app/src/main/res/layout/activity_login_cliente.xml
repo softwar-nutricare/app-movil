@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.386" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ivN_exit"
         android:layout_width="127dp"
         android:layout_height="118dp"
 

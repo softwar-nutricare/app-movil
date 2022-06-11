@@ -16,6 +16,10 @@ class Add_Diets_Recipes : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_diets_recipes)
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Agregar Dieta"
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         loadRecipe()
     }
 

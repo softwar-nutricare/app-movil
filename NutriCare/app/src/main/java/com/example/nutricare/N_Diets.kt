@@ -31,6 +31,12 @@ class N_Diets : AppCompatActivity(), OnItemClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ndiets)
+
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "Dietas"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
     }
 
     //este metodo se carga en c/cambio
