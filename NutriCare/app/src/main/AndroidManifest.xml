@@ -11,7 +11,8 @@
         android:theme="@style/Theme.NutriCare">
         <activity
             android:name=".Add_Diets_Recipes"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".N_Diets"/>
         <activity
             android:name=".N_Diets"
             android:exported="false"

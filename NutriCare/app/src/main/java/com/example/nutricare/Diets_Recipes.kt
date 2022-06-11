@@ -1,19 +1,25 @@
 package com.example.nutricare
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import android.content.Intent//
+import androidx.appcompat.app.AppCompatActivity//
+import android.os.Bundle//
+import android.view.Menu//
+import android.view.MenuInflater//
+import android.view.MenuItem//
 
-class Diets_Recipes : AppCompatActivity() {
+import androidx.recyclerview.widget.LinearLayoutManager//
+import com.google.gson.Gson//
+import kotlinx.android.synthetic.main.activity_diets_recipes.*
 
-    var recipes = ArrayList<Recipe>()
+class Diets_Recipes : AppCompatActivity(), OnItemClickListener {
 
-    //var recipeAdapter = RecipeAdapter(recipes)
+    override fun OnItemClicked(recipe: Recipe) {
+    }
+
+    lateinit var recipes: List<Recipe>
+
+    //utilizo el adaptador del RV
+    lateinit var recipeAdapter: RecipeAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,13 +30,23 @@ class Diets_Recipes : AppCompatActivity() {
         actionBar!!.title = "Dietas/Recetas"
 
         actionBar.setDisplayHomeAsUpEnabled(true)
-
-
-        initView()
-        //loadRecipes()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    //este metodo se carga en c/cambio
+    override fun onResume() {
+        super.onResume()
+        loadRecipes()
+
+        recipeAdapter = RecipeAdapter(recipes, this)
+        rvDietRecep.adapter = recipeAdapter
+        rvDietRecep.layoutManager = LinearLayoutManager(this)
+    }
+
+    private fun loadRecipes() {
+        recipes = AppDatabaseRecipe.getInstance(this).getDao().getAll()
+    }
+
+    /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_diets_recipes, menu)
         return true
     }
@@ -45,7 +61,7 @@ class Diets_Recipes : AppCompatActivity() {
             // User chose the "Favorite" action, mark the current item
             // as a favorite...
             Log.i("My tag", "My message")
-            loadRecipesfav()
+            //loadRecipesfav()
             initView()
             Toast.makeText(this@Diets_Recipes,"Tus Favoritos",
                 Toast.LENGTH_LONG).show()
@@ -64,7 +80,7 @@ class Diets_Recipes : AppCompatActivity() {
         val rvRecipe = findViewById<RecyclerView>(R.id.rvDietRecep)
         //rvRecipe.adapter = recipeAdapter
         rvRecipe.layoutManager = LinearLayoutManager(this)
-    }
+    }*/
 
     /*private fun loadRecipes() {
         recipes.add(Recipe("Ensalada Fresca", "Esta ensalada esta comprendida por bla bla bla bla bla", "50", "4", "3:00 min"))
@@ -76,13 +92,13 @@ class Diets_Recipes : AppCompatActivity() {
 
     }*/
 
-    private fun loadRecipesfav(){
+    /*private fun loadRecipesfav(){
         recipes.removeLast()
         recipes.removeLast()
         //recipes.add(Recipe("Ensalada Leche", "Esta ensalada esta comprendida por bla bla bla bla bla", "50", "4", "3:00 min"))
 
 
-    }
+    }*/
 
 
 }

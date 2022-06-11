@@ -26,7 +26,7 @@ class Add_Diets_Recipes : AppCompatActivity() {
         recipe = gson.fromJson(stringObj, Recipe::class.java) ?: Recipe(null, "", "", "", "", "")
 
         if (recipe.id != null){
-            etDietTitle.setText(recipe.title)
+            etDietDescription.setText(recipe.title)
             /*etName.setText(contact.name)
             etTelephone.setText(contact.telephone)*/
         }
@@ -55,8 +55,10 @@ class Add_Diets_Recipes : AppCompatActivity() {
     fun saveRecipe(){
         //modifico el metodo grabar
         recipe.title = etDietTitle.text.toString()
-        /*contact.name = etName.text.toString()
-        contact.telephone = etTelephone.text.toString()*/
+        recipe.description = etDietDescription.text.toString()
+        recipe.N_Calories = etDietN_Calories.text.toString()
+        recipe.N_Ingredients = etDietN_Ingredients.text.toString()
+        recipe.T_Preparation = etDietT_Preparation.text.toString()
 
         //contact = Contact(null, name, telephone)
 
