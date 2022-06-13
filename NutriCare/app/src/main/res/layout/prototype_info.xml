@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMore_Info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="243dp">
+
+        <TextView
+            android:id="@+id/tvInfo_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2B1D1D"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.129"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.051"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/tvInfo_Descrip"
+            android:layout_width="189dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="34dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/ivInfo_Image"
+            app:layout_constraintTop_toBottomOf="@+id/tvInfo_Title"
+            tools:text="descripcion" />
+
+        <ImageView
+            android:id="@+id/ivInfo_Image"
+            android:layout_width="140dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvInfo_Title"
+            app:srcCompat="@drawable/lechuga_boston"
+            tools:layout_editor_absoluteX="69dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -13,9 +13,15 @@ class MainNutritionist : AppCompatActivity() {
 
         val btNDiet = findViewById<Button>(R.id.btNDiet)
         val ivN_exit = findViewById<ImageView>(R.id.ivN_exit)
+        val btNInform = findViewById<Button>(R.id.btNInform)
 
         btNDiet.setOnClickListener {
             val intent = Intent(this, N_Diets::class.java)
+            startActivity(intent)
+        }
+
+        btNInform.setOnClickListener {
+            val intent = Intent(this, N_Inform::class.java)
             startActivity(intent)
         }
 

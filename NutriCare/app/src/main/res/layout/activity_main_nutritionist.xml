@@ -55,7 +55,7 @@
         android:id="@+id/btNDiet"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="60dp"
         android:backgroundTint="#7fa208"
         android:text="@string/n_dietas"
         app:cornerRadius="25dp"
@@ -66,7 +66,7 @@
         android:id="@+id/btNPerfil"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginEnd="80dp"
         android:backgroundTint="#7fa208"
         android:text="@string/n_perfil"
         app:cornerRadius="25dp"
@@ -97,4 +97,16 @@
         app:layout_constraintTop_toBottomOf="@+id/tvAppName"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/btNInform"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/n_informate_mas"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btNPerfil"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="265dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,4 +31,7 @@
     <string name="nuevo_dieta_recip">Nuevo</string>
     <string name="agregar_informacion">Agregar Informacion:</string>
     <string name="bienvenido">¡ Bienvenido !</string>
+    <string name="n_informate_mas">Informate Mas</string>
+    <string name="info_ingrese_el_titulo">Ingrese el titulo</string>
+    <string name="info_ingrese_la_descripcion">Ingrese la descripcion</string>
 </resources>

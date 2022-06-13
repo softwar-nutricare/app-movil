@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NutriCare">
         <activity
+            android:name=".Add_Info"
+            android:exported="false"
+            android:parentActivityName=".N_Inform"/>
+        <activity
+            android:name=".N_Inform"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist"/>
+        <activity
             android:name=".Login_User"
             android:exported="false" />
         <activity
