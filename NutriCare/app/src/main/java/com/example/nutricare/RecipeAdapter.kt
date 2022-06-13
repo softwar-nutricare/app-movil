@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.prototype_diets_recipes.view.*
 
 
-class RecipeAdapter(var recipes: List<Recipe>, val itemClickListener: OnItemClickListener):
+class RecipeAdapter(var recipes: List<Recipe>, val itemClickListener: OnItemClickListenerRecipe):
     RecyclerView.Adapter<RecipePrototype>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipePrototype {
             val view = LayoutInflater
@@ -37,7 +37,7 @@ class RecipePrototype(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val cvRecipe = itemView.cvRecipe
 
     //vinculamos las variables con la clase
-    fun bind(recipe: Recipe, itemClickListener: OnItemClickListener){
+    fun bind(recipe: Recipe, itemClickListener: OnItemClickListenerRecipe){
         tvTitle.text = recipe.title
         tvDescription.text = recipe.description
         tvN_Calories.text = recipe.N_Calories
@@ -51,7 +51,7 @@ class RecipePrototype(itemView: View) : RecyclerView.ViewHolder(itemView) {
 }
 
 //creo la interfaz
-interface OnItemClickListener {
+interface OnItemClickListenerRecipe {
     fun OnItemClicked(recipe: Recipe)
 
 }

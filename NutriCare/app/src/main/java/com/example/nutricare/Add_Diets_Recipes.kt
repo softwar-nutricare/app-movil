@@ -30,9 +30,11 @@ class Add_Diets_Recipes : AppCompatActivity() {
         recipe = gson.fromJson(stringObj, Recipe::class.java) ?: Recipe(null, "", "", "", "", "")
 
         if (recipe.id != null){
-            etDietDescription.setText(recipe.title)
-            /*etName.setText(contact.name)
-            etTelephone.setText(contact.telephone)*/
+            etDietTitle.setText(recipe.title)
+            etDietDescription.setText(recipe.description)
+            etDietN_Calories.setText(recipe.N_Calories)
+            etDietN_Ingredients.setText(recipe.N_Ingredients)
+            etDietT_Preparation.setText(recipe.T_Preparation)
         }
     }
 
