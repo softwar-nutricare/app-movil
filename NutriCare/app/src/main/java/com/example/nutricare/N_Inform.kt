@@ -7,9 +7,12 @@ import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_ninform.*
 
@@ -24,7 +27,7 @@ class N_Inform : AppCompatActivity(), OnItemClickListenerInfo {
         startActivity(intent)
     }
 
-    lateinit var displayedList : List<Info>
+    //lateinit var displayedList : List<Info>
     lateinit var infos: List<Info>
 
     //utilizo el adaptador del RV
@@ -39,6 +42,17 @@ class N_Inform : AppCompatActivity(), OnItemClickListenerInfo {
         actionBar.setDisplayHomeAsUpEnabled(true)
 
         val etInfo_Search = findViewById<EditText>(R.id.etInfo_Search)
+
+        val fab: View = findViewById(R.id.fabAdd_Info)
+
+        fab.setOnClickListener { view ->
+            Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
+                .setAction("Action", null)
+                .show()
+
+            val intent = Intent(this, Add_Info::class.java)
+            startActivity(intent)
+        }
 
         /*etInfo_Search.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
@@ -62,7 +76,7 @@ class N_Inform : AppCompatActivity(), OnItemClickListenerInfo {
         infoAdapter.updateList(temp)
     }*/
 
-    //este metodo se carga en c/cambio
+  //este metodo se carga en c/cambio
     override fun onResume() {
         super.onResume()
         loadInfos()
@@ -77,15 +91,15 @@ class N_Inform : AppCompatActivity(), OnItemClickListenerInfo {
     }
 
     //cargar el ícono "nuevo"
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    /*override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater : MenuInflater = menuInflater
         inflater.inflate(R.menu.menu_n_diets_recipes, menu)
 
         return true
-    }
+    }*/
 
     //codigo cuando se presiona "nuevo"
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    /*override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
             R.id.itemAdd ->{
                 val intent = Intent(this, Add_Info::class.java)
@@ -94,5 +108,5 @@ class N_Inform : AppCompatActivity(), OnItemClickListenerInfo {
             }
             else -> super.onOptionsItemSelected(item)
         }
-    }
+    }*/
 }
