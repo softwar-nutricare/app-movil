@@ -1,10 +1,12 @@
 package com.example.nutricare
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.widget.Button
 import com.google.gson.Gson
 
 import kotlinx.android.synthetic.main.activity_add_info.*
@@ -21,8 +23,20 @@ class Add_Info : AppCompatActivity() {
         actionBar!!.title = "Agregar Info"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
+        val btNInfo_Save = findViewById<Button>(R.id.btNInfo_Save)
+        val btNInfo_Delete = findViewById<Button>(R.id.btNInfo_Delete)
         loadInfo()
+
+        btNInfo_Save.setOnClickListener {
+            saveInfo()
+        }
+
+        btNInfo_Delete.setOnClickListener {
+            deleteInfo()
+        }
     }
+
+
 
     private fun loadInfo() {
         val gson = Gson()
@@ -37,7 +51,7 @@ class Add_Info : AppCompatActivity() {
     }
 
     ////codigo cuando se presiona grabar o borrar
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    /*override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
             R.id.itemSave -> {
                 saveInfo()
@@ -49,7 +63,7 @@ class Add_Info : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
-    }
+    }*/
 
     private fun deleteInfo() {
         AppDatabaseInfo.getInstance(this).getDao().deleteInfo(info)
@@ -72,9 +86,9 @@ class Add_Info : AppCompatActivity() {
     }
 
     //cargar el ícono "grabar y borrar"
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    /*override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater : MenuInflater = menuInflater
         inflater.inflate(R.menu.menu_add_diet_recipe, menu)
         return true
-    }
+    }*/
 }
