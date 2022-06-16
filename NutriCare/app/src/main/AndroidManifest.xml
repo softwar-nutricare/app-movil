@@ -51,6 +51,10 @@
             android:exported="false"
             android:parentActivityName=".MainUser" />
         <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:parentActivityName=".MainUser" />
+        <activity
             android:name=".MoreInfo"
             android:exported="false"
             android:parentActivityName=".MainUser" />
