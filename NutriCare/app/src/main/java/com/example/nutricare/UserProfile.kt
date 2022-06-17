@@ -9,7 +9,7 @@ class UserProfile : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_profile)
         val actionBar = supportActionBar
-        actionBar!!.title = "Perfil del usuario"
+        actionBar!!.title = "Perfil"
         actionBar.setDisplayHomeAsUpEnabled(true)
     }
 }

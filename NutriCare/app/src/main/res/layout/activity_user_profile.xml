@@ -6,39 +6,185 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/_992010047"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/tvStaticTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/telefono"
+        app:layout_constraintEnd_toStartOf="@+id/tvTelefono"
+        app:layout_constraintStart_toEndOf="@+id/tvDNI"
+        app:layout_constraintTop_toBottomOf="@+id/tvFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/tvDNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/_74693038"
+        app:layout_constraintStart_toEndOf="@+id/tvStaticDNI"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/tvStaticDNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/dni"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/tvStaticFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/fecha_de_nacimiento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticNombre" />
+
+    <TextView
+        android:id="@+id/tvStaticDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/direccion"
+        app:layout_constraintEnd_toStartOf="@+id/tvDireccion"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticDNI" />
+
+    <TextView
+        android:id="@+id/tvDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTelefono" />
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/_21_12_1996"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvStaticFechaNacimiento"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre" />
+
+    <TextView
         android:id="@+id/tvUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="520dp"
         android:text="@string/usuario_1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        tools:text="Joshua C." />
 
     <ImageView
         android:id="@+id/ivUser"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679"
+        app:srcCompat="@drawable/lechuga_boston" />
+
+    <TextView
+        android:id="@+id/tvNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvUser"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/joshua_andres_cartagena_quipas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvPayment"
-        android:layout_width="376dp"
-        android:layout_height="524dp"
+    <TextView
+        android:id="@+id/tvStaticNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:text="@string/nombres_y_apellidos"
+        app:layout_constraintEnd_toStartOf="@+id/tvNombre"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvStaticCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/correo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticDireccion" />
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/u201415040_upc_edu_pe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toEndOf="@+id/tvStaticCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/tvDireccion" />
+
+    <Button
+        android:id="@+id/btEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/editar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStaticCorreo" />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/metodo_de_pago"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btMetodoPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCorreo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
