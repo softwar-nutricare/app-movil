@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = arrayOf(Info::class), version = 1)
+@Database(entities = arrayOf(Payment::class), version = 1)
 abstract class AppDatabasePayment: RoomDatabase() {
 
     abstract fun getDao(): PaymentDao
