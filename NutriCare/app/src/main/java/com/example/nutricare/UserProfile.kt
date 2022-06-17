@@ -1,6 +1,8 @@
 package com.example.nutricare
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class UserProfile : AppCompatActivity(){
@@ -11,5 +13,12 @@ class UserProfile : AppCompatActivity(){
         val actionBar = supportActionBar
         actionBar!!.title = "Perfil"
         actionBar.setDisplayHomeAsUpEnabled(true)
+
+        val btPaymentMethod = findViewById<Button>(R.id.btMetodoPago)
+
+        btPaymentMethod.setOnClickListener {
+            val intent = Intent(this, PaymentMethod::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -9,7 +9,6 @@ import android.view.MenuItem//
 
 import androidx.recyclerview.widget.LinearLayoutManager//
 import com.google.gson.Gson//
-import kotlinx.android.synthetic.main.activity_add_diets_recipes.*//
 import kotlinx.android.synthetic.main.activity_ndiets.*
 
 class N_Diets : AppCompatActivity(), OnItemClickListenerRecipe {

@@ -50,5 +50,6 @@ class MainUser : AppCompatActivity() {
             val intent = Intent(this, UserProfile::class.java)
             startActivity(intent)
         }
+
     }
 }

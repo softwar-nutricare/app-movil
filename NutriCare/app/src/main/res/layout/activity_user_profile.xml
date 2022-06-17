@@ -167,7 +167,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvStaticCorreo" />
 
     <Button
-        android:id="@+id/btEliminar"
+        android:id="@+id/btMetodoPago"
         android:layout_width="236dp"
         android:layout_height="50dp"
         android:layout_marginBottom="32dp"
@@ -178,7 +178,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btMetodoPago"
+        android:id="@+id/btEliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"

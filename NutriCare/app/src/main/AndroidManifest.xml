@@ -59,11 +59,18 @@
             android:exported="false"
             android:parentActivityName=".MainUser" />
         <activity
+            android:name=".PaymentMethod"
+            android:exported="false"
+            android:parentActivityName=".UserProfile"/>
+        <activity
+            android:name=".Add_Payment_Method"
+            android:exported="false"
+            android:parentActivityName=".PaymentMethod" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

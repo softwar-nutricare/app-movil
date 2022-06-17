@@ -50,4 +50,8 @@
     <string name="editar">Editar</string>
     <string name="metodo_de_pago">Metodo de Pago</string>
     <string name="eliminar">Eliminar</string>
+    <string name="tarjetas">Tarjetas:</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="nombre_de_la_persona">Nombre de la persona</string>
+    <string name="numero_de_tarjeta">Numero de tarjeta</string>
 </resources>
