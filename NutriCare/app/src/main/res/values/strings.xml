@@ -59,4 +59,6 @@
     <string name="numero_de_tarj">Numero de Tarjeta</string>
     <string name="fecha_de_exp">Fecha de Exp.</string>
     <string name="ccv">CCV</string>
+    <string name="ninfo_save">Save</string>
+    <string name="ninfo_delete">Delete</string>
 </resources>
