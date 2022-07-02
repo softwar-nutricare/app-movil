@@ -15,6 +15,11 @@ class MainNutritionist : AppCompatActivity() {
         val ivN_exit = findViewById<ImageView>(R.id.ivN_exit)
         val btNInform = findViewById<Button>(R.id.btNInform)
 
+        val btNAsesorias = findViewById<Button>(R.id.btNAsesorias)
+
+        val btHistoy = findViewById<Button>(R.id.btNHistoNutric)
+
+
         btNDiet.setOnClickListener {
             val intent = Intent(this, N_Diets::class.java)
             startActivity(intent)
@@ -25,8 +30,20 @@ class MainNutritionist : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btNAsesorias.setOnClickListener {
+            val intent = Intent(this, NAssesories::class.java)
+            startActivity(intent)
+        }
+
+
+
         ivN_exit.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        btHistoy.setOnClickListener {
+            val intent = Intent(this, NutritionistHistory::class.java)
             startActivity(intent)
         }
     }
