@@ -1,15 +1,15 @@
 package com.example.nutricare
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
-
 import kotlinx.android.synthetic.main.activity_add_info.*
+import kotlinx.android.synthetic.main.prototype_diets_recipes.*
+import java.io.InputStream
+import java.net.URL
+
 
 class Add_Info : AppCompatActivity() {
 
@@ -25,6 +25,8 @@ class Add_Info : AppCompatActivity() {
 
         val btNInfo_Save = findViewById<Button>(R.id.btNInfo_Save)
         val btNInfo_Delete = findViewById<Button>(R.id.btNInfo_Delete)
+
+
         loadInfo()
 
         btNInfo_Save.setOnClickListener {
@@ -35,8 +37,6 @@ class Add_Info : AppCompatActivity() {
             deleteInfo()
         }
     }
-
-
 
     private fun loadInfo() {
         val gson = Gson()

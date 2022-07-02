@@ -14,9 +14,14 @@
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/drawable/box.xml" value="0.207" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/drawable/line.xml" value="0.157" />
 
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_diets_recipes.xml" value="0.5" />
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_info.xml" value="0.33" />
+
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_date.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_diets_recipes.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_info.xml" value="0.18" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_payment_method.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_assesory.xml" value="0.19972826086956522" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_dates.xml" value="0.1" />
@@ -34,9 +39,14 @@
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_ninform.xml" value="0.28402366863905326" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_payment_method.xml" value="0.42572062084257206" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_principal.xml" value="0.19972826086956522" />
+
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_assesories.xml" value="0.5" />
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.2986003110419907" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_update_hour.xml" value="0.5" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_assesories.xml" value="0.5" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.25" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_info.xml" value="0.4174653887113951" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_payment_method.xml" value="0.33" />

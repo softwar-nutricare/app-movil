@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_add_payment_method.*
@@ -19,7 +20,18 @@ class Add_Payment_Method : AppCompatActivity(){
         actionBar!!.title = "Agregar Metodo de Pago"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
+        val btCPayment_Save = findViewById<Button>(R.id.btCPayment_Save)
+        val btCPayment_Delete = findViewById<Button>(R.id.btCPayment_Delete)
+
         loadPayment()
+
+        btCPayment_Save.setOnClickListener {
+            savePayment()
+        }
+
+        btCPayment_Delete.setOnClickListener {
+            deleteMethod_Payment()
+        }
     }
 
     private fun loadPayment(){
@@ -37,14 +49,9 @@ class Add_Payment_Method : AppCompatActivity(){
         }
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId){
-            R.id.itemSave -> {
-                savePayment()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
+    private fun deleteMethod_Payment() {
+        AppDatabasePayment.getInstance(this).getDao().deletePaymentMethod(payment)
+        finish()
     }
 
     fun savePayment(){
@@ -54,14 +61,13 @@ class Add_Payment_Method : AppCompatActivity(){
         payment.expiration_date = etPayment_Add_FechaExp.text.toString()
         payment.ccv = etPayment_Add_CCV.text.toString()
 
-        AppDatabasePayment.getInstance(this).getDao().insertPaymentMethod(payment)
-
+        //es un contacto nuevo o ya existe?
+        if (payment.id != null){
+            AppDatabasePayment.getInstance(this).getDao().updatePaymentMethod(payment)
+        }
+        else{
+            AppDatabasePayment.getInstance(this).getDao().insertPaymentMethod(payment)
+        }
+        finish()
     }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        val inflater : MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu_add_diet_recipe, menu)
-        return true
-    }
-
 }

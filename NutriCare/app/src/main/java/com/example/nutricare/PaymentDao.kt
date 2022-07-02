@@ -1,9 +1,6 @@
 package com.example.nutricare
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
 
 @Dao
 interface PaymentDao {
@@ -14,5 +11,10 @@ interface PaymentDao {
     @Insert
     fun insertPaymentMethod(vararg contact: Payment)
 
+    @Delete
+    fun deletePaymentMethod(vararg contact: Payment)
+
+    @Update
+    fun updatePaymentMethod(vararg contact: Payment)
 
 }

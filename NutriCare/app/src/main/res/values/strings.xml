@@ -62,6 +62,11 @@
     <string name="ninfo_save">Save</string>
     <string name="ninfo_delete">Delete</string>
 
+    <string name="info_ingrese_el_url">info_ingrese_el_URL</string>
+    <string name="expedi">Expedi</string>
+    <string name="cvv">CVV</string>
+
+
     <string name="especialidad">Especialidad</string>
     <string name="nombre_especialista">Nombre Especialista</string>
     <string name="status">status</string>
