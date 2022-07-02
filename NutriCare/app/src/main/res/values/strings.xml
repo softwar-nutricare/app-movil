@@ -34,4 +34,41 @@
     <string name="n_informate_mas">Informate Mas</string>
     <string name="info_ingrese_el_titulo">Ingrese el titulo</string>
     <string name="info_ingrese_la_descripcion">Ingrese la descripcion</string>
+    <string name="usuario_1">Usuario 1</string>
+    <string name="_992010047">992010047</string>
+    <string name="telefono">Telefono:</string>
+    <string name="_74693038">74693038</string>
+    <string name="dni">DNI:</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="xxxxxxxxxxxxxxxxxxxxxxxxxxxx">XXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+    <string name="_21_12_1996">21/12/1996</string>
+    <string name="joshua_andres_cartagena_quipas">Joshua Andres Cartagena Quipas</string>
+    <string name="nombres_y_apellidos">Nombres y Apellidos:</string>
+    <string name="correo">Correo:</string>
+    <string name="u201415040_upc_edu_pe">u201415040@upc.edu.pe</string>
+    <string name="editar">Editar</string>
+    <string name="metodo_de_pago">Metodo de Pago</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="tarjetas">Tarjetas:</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="nombre_de_la_persona">Nombre de la persona</string>
+    <string name="numero_de_tarjeta">Numero de tarjeta</string>
+    <string name="tipo_de_tarjeta">Tipo de Tarjeta</string>
+    <string name="nombres">Nombres</string>
+    <string name="numero_de_tarj">Numero de Tarjeta</string>
+    <string name="fecha_de_exp">Fecha de Exp.</string>
+    <string name="ccv">CCV</string>
+    <string name="ninfo_save">Save</string>
+    <string name="ninfo_delete">Delete</string>
+    <string name="info_michael">El paciente culminó su 5ta
+        sesión la semana pasada. Ha respondido bien al tratamiento
+        contra la gastritis al que ha sometido. Se va a
+        continuar con el tratamiento 1 mes.
+    </string>
+    <string name="info_Lucy">La paciente presenta un elevado
+        colesterol. Se le suministrará receta médica. Se le
+        aplicará el tratamiento correspondiente. Programar citas
+        3 veces x semana.
+    </string>
 </resources>

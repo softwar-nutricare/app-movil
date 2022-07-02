@@ -23,5 +23,4 @@ abstract class AppDatabaseRecipe: RoomDatabase() {
             return INSTANCE as AppDatabaseRecipe
         }
     }
-
 }

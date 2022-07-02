@@ -14,13 +14,20 @@
         android:usesCleartextTraffic="true">
 
         <activity
+            android:name=".HistoryInfo"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"/>
+        <activity
+            android:name=".NutritionistHistory"
+            android:exported="false" />
+        <activity
             android:name=".Add_Info"
             android:exported="false"
-            android:parentActivityName=".N_Inform"/>
+            android:parentActivityName=".N_Inform" />
         <activity
             android:name=".N_Inform"
             android:exported="false"
-            android:parentActivityName=".MainNutritionist"/>
+            android:parentActivityName=".MainNutritionist" />
         <activity
             android:name=".Login_User"
             android:exported="false" />
@@ -55,9 +62,21 @@
             android:exported="false"
             android:parentActivityName=".MainUser" />
         <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:parentActivityName=".MainUser" />
+        <activity
             android:name=".MoreInfo"
             android:exported="false"
             android:parentActivityName=".MainUser" />
+        <activity
+            android:name=".PaymentMethod"
+            android:exported="false"
+            android:parentActivityName=".UserProfile" />
+        <activity
+            android:name=".Add_Payment_Method"
+            android:exported="false"
+            android:parentActivityName=".PaymentMethod" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
