@@ -47,7 +47,7 @@
             android:exported="false"
             android:parentActivityName=".MainUser" />
         <activity
-            android:name=".Nutritionals_Histories"
+            android:name=".Login_Nutricionist"
             android:exported="false"
             android:parentActivityName=".MainUser" />
         <activity
