@@ -6,10 +6,14 @@ import android.os.Bundle//
 import android.view.Menu//
 import android.view.MenuInflater//
 import android.view.MenuItem//
+import android.view.View
+import android.widget.Button
+import android.widget.ImageButton
 
 import androidx.recyclerview.widget.LinearLayoutManager//
 import com.google.gson.Gson//
 import kotlinx.android.synthetic.main.activity_diets_recipes.*
+import kotlinx.android.synthetic.main.prototype_diets_recipes.*
 
 class Diets_Recipes : AppCompatActivity(), OnItemClickListenerRecipe {
 
@@ -20,7 +24,7 @@ class Diets_Recipes : AppCompatActivity(), OnItemClickListenerRecipe {
 
     //utilizo el adaptador del RV
     lateinit var recipeAdapter: RecipeAdapter
-
+             var isClicked: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_diets_recipes)
@@ -45,6 +49,18 @@ class Diets_Recipes : AppCompatActivity(), OnItemClickListenerRecipe {
     private fun loadRecipes() {
         recipes = AppDatabaseRecipe.getInstance(this).getDao().getAll()
     }
+
+    /*fun setStarClick(v: View) {
+        if (isClicked) {
+
+            btn_staroff.setBackgroundResource(R.drawable.staroff)
+            isClicked=false
+
+        } else {
+            btn_staroff.setBackgroundResource(R.drawable.staron)
+            isClicked=true
+        }
+    }*/
 
     /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_diets_recipes, menu)
