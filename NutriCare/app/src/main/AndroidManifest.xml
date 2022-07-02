@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nutricare">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
@@ -20,6 +21,17 @@
         <activity
             android:name=".NutritionistHistory"
             android:exported="false" />
+        <activity
+            android:name=".UpdateHour"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Date"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist" />
+        <activity
+            android:name=".NAssesories"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist" />
         <activity
             android:name=".Add_Info"
             android:exported="false"
