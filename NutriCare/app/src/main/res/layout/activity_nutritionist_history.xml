@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionistHistory">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/green_rounded_rec"
+        android:gravity="center"
+        android:text="Historial"
+        android:textColor="#FBF9F9"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/ibBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="374dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/green_rounded_rec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/tvNamePatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="Michael K."
+            android:textColor="#0B0A0A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAgePatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="35 años"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile"
+            app:layout_constraintTop_toBottomOf="@+id/tvNamePatient" />
+
+        <TextView
+            android:id="@+id/tvEmailPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="MichaelK@hotmail.com"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile"
+            app:layout_constraintTop_toBottomOf="@+id/tvAgePatient" />
+
+        <ImageView
+            android:id="@+id/imageprofile"
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/perfilid" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="374dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/green_rounded_rec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <TextView
+            android:id="@+id/tvNamePatient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="Lucy Hernandez"
+            android:textColor="#0B0A0A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAgePatient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="30 años"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile2"
+            app:layout_constraintTop_toBottomOf="@+id/tvNamePatient2" />
+
+        <TextView
+            android:id="@+id/tvEmailPatient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.29"
+            android:text="LHernan@hotmail.com"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageprofile2"
+            app:layout_constraintTop_toBottomOf="@+id/tvAgePatient2" />
+
+        <ImageView
+            android:id="@+id/imageprofile2"
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/perfilid" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+</androidx.constraintlayout.widget.ConstraintLayout>
