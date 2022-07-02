@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
         val btNutricionista = findViewById<Button>(R.id.btNutricionista)
 
         btCliente.setOnClickListener {
-            val intent = Intent(this, MainUser::class.java)
+            val intent = Intent(this, Login_User::class.java)
             startActivity(intent)
         }
 
         btNutricionista.setOnClickListener {
-            val intent = Intent(this, MainNutritionist::class.java)
+            val intent = Intent(this, Login_Nutricionist::class.java)
             startActivity(intent)
         }
     }
