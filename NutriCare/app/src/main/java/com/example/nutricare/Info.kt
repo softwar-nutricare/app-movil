@@ -1,5 +1,6 @@
 package com.example.nutricare
 
+import android.widget.ImageView
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -16,5 +17,5 @@ data class Info (
     var title: String?,
 
     @ColumnInfo(name = "description")
-    var description: String?
+    var description: String?,
 )

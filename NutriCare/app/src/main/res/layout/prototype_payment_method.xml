@@ -1,62 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMPayment"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/green"
-    android:backgroundTint="@color/green"
-    android:clickable="true">
+    android:layout_margin="8dp">
 
-    <TextView
-        android:id="@+id/tvTarjeta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tarjeta"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvNumTarjeta"
-        app:layout_constraintHorizontal_bias="0.342"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.833" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvNombrePersona"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="84dp"
-        android:text="@string/nombre_de_la_persona"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/tvNumTarjeta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/tvTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/tarjeta"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:layout_constraintVertical_bias="0.833" />
 
-    <TextView
-        android:id="@+id/tvNumTarjeta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="30dp"
-        android:text="@string/numero_de_tarjeta"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNombrePersona" />
+        <TextView
+            android:id="@+id/tvNombrePersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/nombre_de_la_persona"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/tvNumTarjeta"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="105dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvNombrePersona"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/softwar" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tvNumTarjeta"
+            android:layout_width="155dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/numero_de_tarjeta"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/tvNombrePersona" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="81dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/method_payment" />
+
+        <TextView
+            android:id="@+id/tvExDay"
+            android:layout_width="59dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/expedi"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvNombrePersona"
+            app:layout_constraintStart_toEndOf="@+id/tvNombrePersona" />
+
+        <TextView
+            android:id="@+id/tvCVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/cvv"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvNumTarjeta"
+            app:layout_constraintStart_toEndOf="@+id/tvNumTarjeta" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -17,6 +17,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd_Method_Payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:backgroundTint="#7fa208"
+        android:src="@android:drawable/ic_input_add"
+        android:title="@string/nuevo_dieta_recip"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="36dp"
+        app:tint="#FFFFFF" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPaymentMethod"
         android:layout_width="378dp"
@@ -25,4 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvStaticTarjetas" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -61,4 +61,7 @@
     <string name="ccv">CCV</string>
     <string name="ninfo_save">Save</string>
     <string name="ninfo_delete">Delete</string>
+    <string name="info_ingrese_el_url">info_ingrese_el_URL</string>
+    <string name="expedi">Expedi</string>
+    <string name="cvv">CVV</string>
 </resources>
