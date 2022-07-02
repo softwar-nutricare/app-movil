@@ -61,4 +61,14 @@
     <string name="ccv">CCV</string>
     <string name="ninfo_save">Save</string>
     <string name="ninfo_delete">Delete</string>
+    <string name="info_michael">El paciente culminó su 5ta
+        sesión la semana pasada. Ha respondido bien al tratamiento
+        contra la gastritis al que ha sometido. Se va a
+        continuar con el tratamiento 1 mes.
+    </string>
+    <string name="info_Lucy">La paciente presenta un elevado
+        colesterol. Se le suministrará receta médica. Se le
+        aplicará el tratamiento correspondiente. Programar citas
+        3 veces x semana.
+    </string>
 </resources>
