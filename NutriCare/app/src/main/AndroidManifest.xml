@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nutricare">
 
     <application
@@ -10,13 +11,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NutriCare">
         <activity
+            android:name=".UpdateHour"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Date"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist" />
+        <activity
+            android:name=".NAssesories"
+            android:exported="false"
+            android:parentActivityName=".MainNutritionist" />
+        <activity
             android:name=".Add_Info"
             android:exported="false"
-            android:parentActivityName=".N_Inform"/>
+            android:parentActivityName=".N_Inform" />
         <activity
             android:name=".N_Inform"
             android:exported="false"
-            android:parentActivityName=".MainNutritionist"/>
+            android:parentActivityName=".MainNutritionist" />
         <activity
             android:name=".Login_User"
             android:exported="false" />
@@ -61,7 +73,7 @@
         <activity
             android:name=".PaymentMethod"
             android:exported="false"
-            android:parentActivityName=".UserProfile"/>
+            android:parentActivityName=".UserProfile" />
         <activity
             android:name=".Add_Payment_Method"
             android:exported="false"
@@ -71,6 +83,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

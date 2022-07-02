@@ -6,21 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Dates">
 
-    <TextView
-        android:id="@+id/tvBG"
-        android:layout_width="412dp"
-        android:layout_height="750dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/box"
-        android:backgroundTint="#BCBCBC"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvDate"
-        android:layout_width="411dp"
-        android:layout_height="692dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

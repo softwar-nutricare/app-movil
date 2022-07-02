@@ -61,4 +61,13 @@
     <string name="ccv">CCV</string>
     <string name="ninfo_save">Save</string>
     <string name="ninfo_delete">Delete</string>
+    <string name="especialidad">Especialidad</string>
+    <string name="nombre_especialista">Nombre Especialista</string>
+    <string name="status">status</string>
+    <string name="end1">End1</string>
+    <string name="start1">Start1</string>
+    <string name="start3">start3</string>
+    <string name="daydate">DayDate</string>
+    <string name="end">end</string>
+    <string name="star">Star</string>
 </resources>
