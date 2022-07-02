@@ -3,48 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_add_diets_recipes.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_add_info.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_add_payment_method.xml" value="0.34193840579710144" />
         <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_assesory.xml" value="0.3333333333333333" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_dates.xml" value="0.360054347826087" />
         <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.3333333333333333" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_login_cliente.xml" value="0.360054347826087" />
         <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.3625" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_main_nutritionist.xml" value="0.34193840579710144" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_main_user.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_more_info.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_ndiets.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_ninform.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_payment_method.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_principal.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_profile.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/activity_user_profile.xml" value="0.360054347826087" />
         <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/prototype_assesories.xml" value="0.3625" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.360054347826087" />
         <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.3333333333333333" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/prototype_info.xml" value="0.360054347826087" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/layout/prototype_payment_method.xml" value="0.33" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/menu/menu_add_diet_recipe.xml" value="0.3625" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/menu/menu_diets_recipes.xml" value="0.3625" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/menu/menu_n_diets_recipes.xml" value="0.3625" />
-        <entry key="..\:/Paolo/UPC/APLICACIONES_PARA_DISPOSITIVOS_MOVILES/app-movil/NutriCare/app/src/main/res/menu/menu_payment_method.xml" value="0.3625" />
         <entry key="..\:/UPC/2022-01/Aplicaciones Moviles/Projects_App_Moviles/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.20416666666666666" />
         <entry key="..\:/UPC/2022-01/Aplicaciones Moviles/Projects_App_Moviles/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/UPC/2022-01/Aplicaciones Moviles/Projects_App_Moviles/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.67" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/drawable/box.xml" value="0.207" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/drawable/line.xml" value="0.157" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_date.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_diets_recipes.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_info.xml" value="0.18" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_add_payment_method.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_assesory.xml" value="0.19972826086956522" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_dates.xml" value="0.1" />
+
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_dates.xml" value="0.30577223088923555" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.2" />
-        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_login_cliente.xml" value="0.19972826086956522" />
-        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_login_nutricionista.xml" value="0.19972826086956522" />
-        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_login_user.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.33" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_main_nutritionist.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_main_user.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_more_info.xml" value="0.33" />
@@ -62,14 +43,60 @@
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/menu/menu_add_diet_recipe.xml" value="0.67" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/menu/menu_diets_recipes.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/menu/menu_n_diets_recipes.xml" value="0.20416666666666666" />
+
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.2986003110419907" />
+        <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.25" />
+
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documents/GitHub/app-movil/NutriCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/drawable/my_button.xml" value="0.1" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/drawable/star_on.xml" value="0.1945" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.2" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_main_nutritionist.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_ninform.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_nutritional_history_patient.xml" value="0.22" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_nutritionals_histories.xml" value="0.18" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_payment_method.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_principal.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/activity_user_profile.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/prototype_assesories.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.33" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/layout/prototype_nutritionals_histories.xml" value="0.5" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.197" />
         <entry key="..\:/Users/WORKSTATION/OneDrive/Documentos/app-movil/NutriCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.197" />
+
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_assesory.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.264" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_more_info.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/prototype_diets_recipes.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/menu/menu_diets_recipes.xml" value="0.264" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2265" />
+
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_login_cliente.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_login_nutricionista.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_login_user.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_main_nutritionist.xml" value="0.1328125" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_main_user.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_more_info.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_ndiets.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/poeta/Documents/GitHub/app-mobile/NutriCare/app/src/main/res/layout/activity_principal.xml" value="0.11302083333333333" />
+
+
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/drawable/box.xml" value="0.217" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/drawable/green_rounded_rec.xml" value="0.217" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_assesory.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_history_info.xml" value="0.1" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_main_nutritionist.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_ndiets.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_nutritionist_history.xml" value="0.264" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/activity_payment_method.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/prototype_dates.xml" value="0.25" />
+        <entry key="..\:/Users/carlo/Documents/Repositorios/app-movil/NutriCare/app/src/main/res/layout/prototype_info.xml" value="0.25" />
         <entry key="..\:/Users/poeta/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_diets_recipes.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/poeta/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/poeta/Documents/GitHub/app-movil/NutriCare/app/src/main/res/layout/activity_more_info.xml" value="0.4" />
